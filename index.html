@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+  	<link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=League+Script" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Nynke's</h1>
+    <h4>Pixel Art Maker</h4>
+    <h2>Choose the size of your canvas</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="input_height" name="height" min="1" max="50" value="15">
+        Grid Width:
+        <input type="number" id="input_width" name="width" min="1" max="50" value="15">
+        <input id="button" type="submit" value="Go!">
+    </form>
+    <h3>... but beware: the maximum size of your grid is 50x50</h3>
+    <h2>Pick a color</h2>
+    <input type="color" id="colorPicker">
+    <h3>Click the box to choose any color you want</h3>
+    <h5>and</h5>
+    <h2>Have fun painting!</h2>
+    <table id="pixel_canvas"></table>
+  	<div id="clear_grid"></div>
+    <script src="designs.js"></script>
+</body>
+</html>

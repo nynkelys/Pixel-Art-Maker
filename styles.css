@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/07/L.Gardner-Tropical-on-White.jpg");
+    background-size: cover;
+    padding:0;
+}
+
+h1 {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 50px;
+    margin: 0.25em;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+h2:last-of-type {
+  margin-top: 0.25em;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+}
+
+h4 {
+  font-family: 'League Script', cursive;
+  font-size: 30px;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  font-family: 'League Script', cursive;
+  font-size: 30px;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+form {
+    font-family: 'Quicksand', sans-serif;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 15px;
+    border-style: dashed;
+}
+
+td {
+    width: 15px;
+    border-style: dashed;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#button {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5b915f;
+  border: none;
+  border-radius: 50px;
+}
+
+#button:hover {
+    background-color: #1a3a16;
+}
+
+#button2 {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5b915f;
+  border: none;
+  border-radius: 50px;
+}
+
+#button2:hover {
+    background-color: #1a3a16;
+}
+
+#colorPicker {
+    background-color: #cec8cb;
+}
+
+tbody {
+  background-color: #ffffff;
+}
